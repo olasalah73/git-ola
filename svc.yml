@@ -5,7 +5,6 @@ metadata:
     app: twins-art-project
   name: twins-art-project
 spec:
-  clusterIP: 10.96.35.168
   ports:
   - nodePort: 30171
     port: 80
