@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: java
+  name: twins-art-project
   labels:
-    app: java
+    app: twins-art-project
 spec:
   containers:
-  - name: java
+  - name: twins-art-project
     image: olasalah73/twins-art-project:latest
     ports:
     - containerPort: 80
