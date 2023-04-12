@@ -1,0 +1,22 @@
+
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: twins-art-project
+  name: twins-art-project
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: twins-art-project
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app:  twins-art-project
+    spec:
+      containers:
+      - image: olasalah73/twins-art-project:latest
+        name: twins-art-project
