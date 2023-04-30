@@ -6,7 +6,7 @@ metadata:
   name: twins-art-project
 spec:
   ports:
-  - nodePort: 30171
+  - nodePort: 30173
     port: 80
     protocol: TCP
     targetPort: 80
