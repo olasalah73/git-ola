@@ -7,6 +7,10 @@ metadata:
 spec:
   containers:
   - name: twins-art-project
-    image: olasalah73/twins-art-project:latest
+    image: olasalah1/twins-art-project:7.7.5
     ports:
     - containerPort: 80
+
+
+
+
