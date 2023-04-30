@@ -18,5 +18,5 @@ spec:
         app:  twins-art-project
     spec:
       containers:
-      - image: olasalah73/twins-art-project:latest
+      - image: olasalah1/twins-art-project:7.7.5
         name: twins-art-project
